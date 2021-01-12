@@ -1,0 +1,1 @@
+const sum = () => {~@let retval = 0;~@for (let i = 0, len = arguments.length; i < len; ++i) {~@@retval += arguments[i];~@}~@return retval;~}10

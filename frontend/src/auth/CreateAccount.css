@@ -1,0 +1,26 @@
+
+  .form-control label {
+    margin: 20px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 500px;
+    clear: both;
+  }
+  
+  .form-control input {
+    width: 100%;
+    clear: both;
+  }
+
+  .btn {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    margin-top: 10px;
+}

@@ -1,0 +1,29 @@
+h1 {
+    display: inline;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.text-box {
+    border: solid 3px black;
+    padding: 10px 10px 30px 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.line{
+    position: relative;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.text-box h1{
+    font-size: 15px;
+    position: relative;
+    float: left;
+    margin: auto;
+}

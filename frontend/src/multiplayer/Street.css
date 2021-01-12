@@ -1,0 +1,37 @@
+.race-car {
+    
+    color: white;
+    width: 100%;
+}
+.username {
+    color: white;
+    position: relative;
+    left: 0;
+}
+
+.cars tbody {
+    margin-right: 10px;
+}
+
+
+.cars img {
+    position: relative;
+    left: 0;
+    height: 10%;
+
+}
+
+.cars td {
+    padding: 10px;
+}
+
+.speed{
+    float: right;
+    color: white;
+    margin: auto;
+    margin-left: 10px;
+    position: relative;
+    bottom: 60px;
+    right: 20px;
+    font-size: 15px;
+}

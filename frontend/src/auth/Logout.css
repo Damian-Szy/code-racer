@@ -1,0 +1,12 @@
+.logout h1,
+.logout button{
+    display: block;
+    margin: auto;
+}
+
+.logout button{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+

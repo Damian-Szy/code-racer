@@ -1,0 +1,1 @@
+class Rabbit extends Animal {~@hide() {~@@alert(`${this.name} hides!`);~@}~}11

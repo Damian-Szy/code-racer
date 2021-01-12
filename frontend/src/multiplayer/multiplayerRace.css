@@ -1,0 +1,51 @@
+.street{
+    background-color: black;
+    z-index: -1;
+    padding: 20px 0;
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+.street tbody{
+    border-bottom: 3px dashed #fad201;
+    display: block;
+    position: relative;
+    width: 85%;
+    padding: 0;
+    margin-right: 20px;
+}
+
+@media (max-width: 500px) {
+    .street tbody {
+        width: 50%
+    }
+}
+
+.game-id {
+    margin: auto;
+    padding: 10px;
+}
+
+.game-id h1 {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.game-id button {
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+.mp-screen{
+    float: top;
+    
+}
+
+.start-button button{
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: black;
+}

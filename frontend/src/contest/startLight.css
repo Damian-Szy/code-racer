@@ -1,0 +1,18 @@
+div {
+    border-color: black;
+    margin: auto;
+}
+
+.start-section div{
+    display: inline;
+    margin: 10px;
+}
+
+td h1 {
+    font-size: 40px;
+}
+
+/* table tr td {
+    border: 5px solid black;
+    margin: auto;
+} */
