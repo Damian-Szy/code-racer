@@ -22,6 +22,7 @@ const MultiplayerRace = (props) => {
   const [userInput, setUserInput] = useState("");
   const [users, setUsers] = useState([{}]);
   const [startButton, setStartButton] = useState(null)
+  const [completion, setCompletion] = useState(0)
   let gameId = props.match.params.gameId;
   const userInputRef = useRef(userInput);
   userInputRef.current = userInput;
@@ -134,8 +135,9 @@ const MultiplayerRace = (props) => {
             username={user.username}
             speed={user.speed}
             completion={
-              user.wordsTyped / props.location.state.phrase.split(" ").length
+              (user.wordsTyped / (props.location.state.phrase.length/5))
             }
+            done={userInput === props.location.state.phrase}
           />
         ))}
       </div>

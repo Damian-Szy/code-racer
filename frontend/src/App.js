@@ -62,6 +62,9 @@ function App() {
             <Route path="/logout" component={Logout} />
             <Redirect to="/" />
           </Switch>
+          <div className='repo-link-div'>
+          <a className='repo-link' href='https://github.com/Damian-Szy/code-racer'>Github Repository</a>
+          </div>
         </main>
       </BrowserRouter>
     </AuthContext.Provider>

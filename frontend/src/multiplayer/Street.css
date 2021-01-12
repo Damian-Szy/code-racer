@@ -23,6 +23,7 @@
 
 .cars td {
     padding: 10px;
+    position: relative;
 }
 
 .speed{
