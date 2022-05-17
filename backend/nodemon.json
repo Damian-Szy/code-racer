@@ -1,9 +1,0 @@
-{
-    "env": {
-        "DB_USER": "Damian",
-        "DB_PASSWORD": "GloobaHooba",
-        "DB_NAME": "typeracer",
-        "JWT_KEY": "dsfljksfs",
-        "FRONTEND_URL": "http://localhost:3000"
-    }
-}
